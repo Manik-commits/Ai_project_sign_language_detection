@@ -1,0 +1,9 @@
+cv2: 4.11.0
+numpy: 1.26.4
+Keras version: 3.9.2
+enchant version: 3.2.2
+TensorFlow version: 2.19.0
+Python 3 -> 3.11.9
+Python -> 3.10.0
+MediaPipe version: 0.10.21
+pip -> 21.2.3
