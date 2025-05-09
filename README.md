@@ -43,10 +43,6 @@ In vision-based methods, the computer webcam is the input device for observing t
 
 In this approach for hand detection, firstly we detect hand from image that is acquired by webcam and for detecting a hand we used media pipe library which is used for image processing. So, after finding the hand from image we get the region of interest (Roi) then we cropped that image and convert the image to gray image using OpenCV library after we applied the gaussian blur .The filter can be easily applied using open computer vision library also known as OpenCV. Then we converted the gray image to binary image using threshold and Adaptive threshold methods. 
 
-We have collected images of different signs of different angles  for sign letter A to Z. 
-
- ![fdfScreenshot (227)](https://user-images.githubusercontent.com/99630855/201489564-04b0416d-f976-4946-80d3-01bab6897ce3.png) 
-
 - in this method there are many loop holes like your hand must be ahead of clean soft background and that is in proper lightning condition then only this method will give good accurate results but in real world we dont get good background everywhere and we don’t get good lightning conditions too. 
 
 So to overcome this situation we try different approaches then we reached at one interesting solution in which firstly we detect hand from frame using mediapipe and get the hand landmarks of hand present in that image then we draw and connect those landmarks in simple white image  
@@ -149,10 +145,3 @@ IDE: PyCharm
 Programming Language: Python 3.9 5 
 
 Python libraries: OpenCV, NumPy, Keras,mediapipe,Tensorflow 
-
-
-**Sequence diagram:**
-
-![sequence2](https://user-images.githubusercontent.com/99630855/201490230-b903c365-7a4c-4972-8268-5687060b9cd0.png)
-
- 
